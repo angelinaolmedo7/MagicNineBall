@@ -24,7 +24,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have a question?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRT-TU-QB3">
-                                <rect key="frame" x="94.459073343127329" y="213" width="223.99999999999997" height="34"/>
+                                <rect key="frame" x="38.96697215625403" y="200" width="334" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
@@ -46,7 +46,7 @@
                     <state key="normal" title="Shake It!"/>
                 </button>
             </objects>
-            <point key="canvasLocation" x="139" y="128"/>
+            <point key="canvasLocation" x="137.68115942028987" y="127.90178571428571"/>
         </scene>
     </scenes>
 </document>
