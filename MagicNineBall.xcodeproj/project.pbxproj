@@ -13,10 +13,12 @@
 		29B0C0F523A1CF5000F24AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B0C0F323A1CF5000F24AF7 /* Main.storyboard */; };
 		29B0C0F723A1CF5200F24AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B0C0F623A1CF5200F24AF7 /* Assets.xcassets */; };
 		29B0C0FA23A1CF5200F24AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B0C0F823A1CF5200F24AF7 /* LaunchScreen.storyboard */; };
+		29B0C10423A1D11600F24AF7 /* app_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B0C10223A1D11600F24AF7 /* app_icon@3x.png */; };
+		29B0C10523A1D11600F24AF7 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B0C10323A1D11600F24AF7 /* app_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29B0C0EA23A1CF5000F24AF7 /* MagicNineBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicNineBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B0C0EA23A1CF5000F24AF7 /* Magic 9-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 9-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B0C0ED23A1CF5000F24AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B0C0EF23A1CF5000F24AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29B0C0F123A1CF5000F24AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		29B0C0F623A1CF5200F24AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B0C0F923A1CF5200F24AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29B0C0FB23A1CF5200F24AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B0C10223A1D11600F24AF7 /* app_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@3x.png"; sourceTree = "<group>"; };
+		29B0C10323A1D11600F24AF7 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		29B0C0EB23A1CF5000F24AF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29B0C0EA23A1CF5000F24AF7 /* MagicNineBall.app */,
+				29B0C0EA23A1CF5000F24AF7 /* Magic 9-Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +64,21 @@
 				29B0C0EF23A1CF5000F24AF7 /* SceneDelegate.swift */,
 				29B0C0F123A1CF5000F24AF7 /* ViewController.swift */,
 				29B0C0F323A1CF5000F24AF7 /* Main.storyboard */,
+				29B0C10123A1D11600F24AF7 /* magic_app_icon */,
 				29B0C0F623A1CF5200F24AF7 /* Assets.xcassets */,
 				29B0C0F823A1CF5200F24AF7 /* LaunchScreen.storyboard */,
 				29B0C0FB23A1CF5200F24AF7 /* Info.plist */,
 			);
 			path = MagicNineBall;
+			sourceTree = "<group>";
+		};
+		29B0C10123A1D11600F24AF7 /* magic_app_icon */ = {
+			isa = PBXGroup;
+			children = (
+				29B0C10223A1D11600F24AF7 /* app_icon@3x.png */,
+				29B0C10323A1D11600F24AF7 /* app_icon@2x.png */,
+			);
+			path = magic_app_icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +98,7 @@
 			);
 			name = MagicNineBall;
 			productName = MagicNineBall;
-			productReference = 29B0C0EA23A1CF5000F24AF7 /* MagicNineBall.app */;
+			productReference = 29B0C0EA23A1CF5000F24AF7 /* Magic 9-Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B0C0FA23A1CF5200F24AF7 /* LaunchScreen.storyboard in Resources */,
+				29B0C10523A1D11600F24AF7 /* app_icon@2x.png in Resources */,
 				29B0C0F723A1CF5200F24AF7 /* Assets.xcassets in Resources */,
+				29B0C10423A1D11600F24AF7 /* app_icon@3x.png in Resources */,
 				29B0C0F523A1CF5000F24AF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MagicNineBall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Magic 9-Ball";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MagicNineBall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Magic 9-Ball";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
